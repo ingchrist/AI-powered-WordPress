@@ -1,2 +1,2 @@
-# AI-powered-WordPress
-AI-powered WordPress theme builder
+# quickwp
+The plugin side of QuickWP
