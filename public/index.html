@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI-Powered WordPress – QuickWP</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0a0a0a;
+      color: #f0f0f0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .badge {
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      color: white;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 0.35rem 1rem;
+      border-radius: 999px;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.5rem);
+      font-weight: 800;
+      text-align: center;
+      line-height: 1.15;
+      margin-bottom: 1.25rem;
+      background: linear-gradient(135deg, #fff 40%, #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    p.sub {
+      font-size: 1.125rem;
+      color: #a0a0a0;
+      text-align: center;
+      max-width: 520px;
+      line-height: 1.7;
+      margin-bottom: 2.5rem;
+    }
+    .cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      color: white;
+      font-weight: 600;
+      font-size: 1rem;
+      padding: 0.85rem 2rem;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: opacity 0.2s;
+      margin-bottom: 3rem;
+    }
+    .cta:hover { opacity: 0.85; }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.25rem;
+      max-width: 720px;
+      width: 100%;
+    }
+    .card {
+      background: #161616;
+      border: 1px solid #262626;
+      border-radius: 12px;
+      padding: 1.5rem;
+    }
+    .card .icon { font-size: 1.75rem; margin-bottom: 0.75rem; }
+    .card h3 { font-size: 0.95rem; font-weight: 700; margin-bottom: 0.4rem; }
+    .card p { font-size: 0.85rem; color: #737373; line-height: 1.5; }
+    footer { margin-top: 3rem; font-size: 0.8rem; color: #555; text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="badge">WordPress AI Plugin</div>
+  <h1>Build Websites<br/>With AI, Instantly</h1>
+  <p class="sub">QuickWP uses AI to generate complete WordPress sites in seconds — themes, content, and layout, all tailored to your brand.</p>
+  <a class="cta" href="https://github.com/ingchrist/AI-powered-WordPress" target="_blank">
+    ⭐ View on GitHub
+  </a>
+  <div class="features">
+    <div class="card">
+      <div class="icon">🤖</div>
+      <h3>AI-Generated Sites</h3>
+      <p>Describe your business and let AI build the whole site for you.</p>
+    </div>
+    <div class="card">
+      <div class="icon">🎨</div>
+      <h3>Theme Integration</h3>
+      <p>Works seamlessly with block themes inside the WordPress Site Editor.</p>
+    </div>
+    <div class="card">
+      <div class="icon">⚡</div>
+      <h3>Instant Preview</h3>
+      <p>See live previews as the AI builds your site, step by step.</p>
+    </div>
+    <div class="card">
+      <div class="icon">🔌</div>
+      <h3>Plugin-Powered</h3>
+      <p>Install as a standard WordPress plugin — no lock-in, full control.</p>
+    </div>
+  </div>
+  <footer>© 2024 QuickWP · AI-Powered WordPress · Deployed on Vercel</footer>
+</body>
+</html>
